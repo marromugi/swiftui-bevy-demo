@@ -1,0 +1,12 @@
+language = "C"
+include_guard = "ENGINE_FFI_H"
+include_version = true
+no_includes = true
+
+[parse]
+expand = true
+clean = true
+parse_deps = false
+
+[export]
+include = ["engine_init", "engine_frame", "engine_free"]
